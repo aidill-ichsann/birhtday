@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body {
+    background-image: url("/images/background.jpg");
+    height: 100dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "VT323", monospace;
+  }
+  nav {
+    border-radius: 10px;
+    background-color: #aee2ff;
+    height: 50px;
+    width: 95%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 0 #555; /* pixel block shadow */
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    color: black;
+    font-size: 26px;
+    padding: 0.5rem;
+  }
+  .tombol {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px; /* Sesuaikan ukuran gambar */
+  cursor: pointer;
+  z-index: 100;
+  background-color: turquoise;
+  padding: 10px;
+  border-radius: 10px;
+}
+}

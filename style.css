@@ -1,0 +1,181 @@
+@media screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body {
+    background-image: url("/images/background.jpg");
+    height: 100dvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "VT323", monospace;
+  }
+  nav {
+    border-radius: 10px;
+    background-color: #aee2ff;
+    height: 50px;
+    width: 95%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 0 #555; /* pixel block shadow */
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    color: black;
+    font-size: 26px;
+    padding: 0.5rem;
+  }
+
+  /* main */
+  main {
+    width: 95%;
+    height: 400px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: auto;
+    box-shadow: 4px 4px 0 #555; /* pixel block shadow */
+  }
+  main .header {
+    border-bottom: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #67c2f3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  main .header .menu {
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    /* margin: 0 10px; */
+    background-color: #aee2ff;
+  }
+  .kali {
+    border-top-right-radius: 10px;
+  }
+  .minisize p {
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+    width: 30px;
+  }
+  .contain {
+    background-image: url("/images/ning-9.jpg");
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  img {
+    width: 100px;
+    position: absolute;
+  }
+  .hati {
+    top: 35px;
+    z-index: -1;
+    transform: rotate(20deg);
+    /* animation: kedapKedipCepat .2s infinite ease-in-out; */
+  }
+  .hati-1 {
+  position: absolute;
+  top: 150px;
+  right: 60px;
+  transform: rotate(20deg);
+  animation: kedapKedipCepat .8s infinite ease-in-out;
+}
+
+@keyframes goyangKedip {
+  0%, 100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  25% {
+    transform: rotate(-10deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: rotate(10deg);
+    opacity: 0.3;
+  }
+  75% {
+    transform: rotate(-10deg);
+    opacity: 0.5;
+  }
+}
+
+
+  .kucing {
+    top: 300px;
+    z-index: 1;
+    width: 200px;
+    transform: rotate(-20deg);
+    animation: kedapKedipCepat .8s infinite ease-in-out;
+  }
+  @keyframes kedapKedipCepat {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+  .permen {
+    top: 400px;
+    width: 70px;
+    transform: rotate(20deg);
+    right: 20px;
+        /* animation: kedapKedipCepat .3s infinite ease-in-out; */
+  }
+  .permen-1 {
+    top: 400px;
+    width: 70px;
+    transform: rotate(-20deg);
+    right: 60px;
+        /* animation: kedapKedipCepat .3s infinite ease-in-out; */
+  }
+  .amplop {
+    top: 500px;
+    left: 150px;
+        /* animation: kedapKedipCepat .3s infinite ease-in-out; */
+  }
+  .coklat {
+    bottom: 15px;
+    right: 10px;
+    z-index: -1;
+        /* animation: kedapKedipCepat .3s infinite ease-in-out; */
+  }
+  .coklat-1 {
+    bottom: 20px;
+    left: 10px;
+    transform: rotate(-40deg);
+    z-index: -1;
+        /* animation: kedapKedipCepat .3s infinite ease-in-out; */
+  }
+  p.text,p.emot{
+    position: absolute;
+    bottom: 80px;
+    font-size:26px ;
+    font-family: "Press Start 2P", system-ui;
+    text-shadow: 2px 2px 0 #ff69b4, -2px -2px 0 #ff69b4;
+    font-weight: 700;
+    text-align: center;
+}
+p.emot{
+      text-shadow: 5px 5px 0 #ff69b4, -2px -2px 0 #ff69b4;
+    bottom: 30px;
+    font-size: 40px;
+    left: 120px;
+  }
+}
