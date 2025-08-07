@@ -6,7 +6,7 @@
     text-decoration: none;
   }
   body {
-    background-image: url("/images/background.jpg");
+    background-image: url("images/background.jpg");
     height: 100dvh;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@
     width: 30px;
   }
   .contain {
-    background-image: url("/images/ning-9.jpg");
+    background-image: url("images/ning-9.jpg");
     background-size: cover;
     height: 100%;
     border-bottom-left-radius: 10px;
